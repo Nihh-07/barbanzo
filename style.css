@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding: 2px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  body{
+    background-image: url("/home/zeon/Downloads/images.jpeg");
+    background-repeat:no repeat;
+    background-attachment:fixed;
+    background-position:center;
+    background-size:cover;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0; 
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #ffcc00;
+  }
+  .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 60px; 
+  }
+  
+  .card {
+    text-align: center;
+  }
+  
+  .card img {
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  .card p {
+    margin-top: 10px;
+    font-weight: bolder;
+    color: #eadfb0;
+    font-size: x-large;
+  }
+  .about {
+    text-align: center;
+    padding: 100px;
+  }
+  
+  .about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: aliceblue;
+  }
+  
+  .about p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.6;
+    color: aliceblue;
+  }
+  .contact {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: aliceblue;
+  }
+  
+  .contact p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.6;
+    color: aliceblue;
+  }
